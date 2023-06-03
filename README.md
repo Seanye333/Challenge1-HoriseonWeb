@@ -2,14 +2,10 @@
 ## Link to application 
 
 ## Description
-This repository contains the code for the Horiseon Social Solution Services, Inc homepage. It includes both the HTML and CSS files necessary to display the webpage correctly.This website is created for Horiseon's customers and employees to navigate
+This repository contains the code for the Horiseon Social Solution Services, Inc homepage. It includes both the HTML and CSS files necessary to display the webpage correctly.
+This website was created for Horiseon's customers and employees to navigate through the company's provided services, including Search Engine Optimization, Online Reputation Management, and Social Media Marketing. Click on the tabs from the top right-hand corner to navigate into the description of each service.
+From this assignment: I learned how to use semantic of the HTML elements, change title element, put heading attributes in sequential order, create alt for images, create styling and postioning for CSS.
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-What was your motivation?
-Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-What problem does it solve?
-What did you learn?
 ## Installation
 To install this project within your computer, please follow the instruction below
 1. Open git bash
@@ -22,11 +18,7 @@ To install this project within your computer, please follow the instruction belo
 ## Usage
 Please open the HTML file (index.html) in a web browser to view the Horiseon Services homepage. The CSS file (style.css) is referenced in the HTML file and automatically applied to the webpage in the web browser. The website will be deployed for all customer to use by simply copy and paste to browser.
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an assets/images folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-alt text
+![alt text](assets/images/HoriseonWeb_Screenshot.png)
 
 ## Credits
 To understand how responsive website code functions, a youtube video was utilized to learn the concepts: https://www.youtube.com/watch?v=0ihPVIrf_Dw
@@ -36,6 +28,9 @@ This project is licensed under the MIT License.
 
 ## Features
 
+Navigation tabs on top right 
+
+Responsive display for all devices 
 
 ## How to Contribute
 Contributions to this project are not avaiable currently.

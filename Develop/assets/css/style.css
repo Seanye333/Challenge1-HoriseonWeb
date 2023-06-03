@@ -1,64 +1,78 @@
+/* Univseral selection: all elements are using following box size, padding and margin */
+/* all boxes are in padding 0px and margin 0px */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* body ackground color set to this color */
 body {
     background-color: #d9dcd6;
 }
-
-.header {
+/* changed class .header to header  */
+/* set font to first avaiable font from the list - left to right */
+/* color: change the font color  */
+/* background color: changed the box color */
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
-.header h1 {
+/* changed class .header to header  */
+/* set Horiseon to 48px and generate a block box surround the Horiseon */
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
-.header h1 .seo {
+/* changed class .header to header  */
+/* changed letter seo to different color */
+header h1 .seo {
     color: #d9dcd6;
 }
-
-.header div {
+/* changed class .header to header  */
+/* changed div to nav to align with HTML */
+/* set navigation bar "Search Engine Optimization" , "Online Reputation Management", 
+& "Social Media Marketing" to follow proporties */
+/* float:right - set element to right side of navigation box */
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-.header div ul {
+/* changed class .header to header  */
+/* changed div to nav to align with HTML */
+/* dont set any style marker to navigation bar */
+header nav ul {
     list-style-type: none;
 }
-
-.header div ul li {
+/* changed class .header to header  */
+/* changed div to nav to align with HTML */
+/* generate a block box surround three navigation words */
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* set hyperlinks color */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* paragraph font size to 16px */
 p {
     font-size: 16px;
 }
-
-.hero {
+/* changed to digital marking meeting and remove the image link */
+.Digital-Marketing-Meeting{
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
-
+/* float plays the object left or right to the container */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -68,14 +82,14 @@ p {
     float: right;
     margin-left: 25px;
 }
-
-.content {
+/* changed class selector to main*/
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
-.benefits {
+/* changed class selector to article */
+article {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -86,55 +100,32 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* changed class selectors benefits-** to aside 
+ reduced three line code to one line since margin,color,and alignment are the same set up */
+aside {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
+/* changed class selectors benefits-** to aside h3
+ reduced three line code to one line since margin,color,and alignment are the same set up */
 
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+aside h3 {
     margin-bottom: 10px;
-    text-align: center;
+    text-align: center;  
 }
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* changed class selectors benefits-** to aside img
+ reduced three line code to one line since margin,color,and alignment are the same set up */
+aside img{
     display: block;
     margin: 10px auto;
-    max-width: 150px;
+    max-width: 150px; 
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+/* changed class selectors to aside h3
+reduced three line code to one line since margin, padding , height , font-family 
+background color and color are the same set up */ 
+section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -142,59 +133,35 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/* changed class selectors to aside h3
+reduced three line code to one line since max height are the same set up */ 
+section img {
     max-height: 200px;
 }
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/* changed class selectors to aside h3
+reduced three line code to one line since margin and font size are the same set up */ 
+section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.footer {
+/* changed class .footer to footer */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
-.footer h2 {
+/* changed h2 to h1 following html */
+footer h1 {
     font-size: 20px;
 }
+ /* adding media screen to make elements responsive control for all devices */
+ @media screen and (min-width: 768px) {
+    header nav {
+        padding-top: 15px;
+        margin-right: 0px;
+        float: right;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 17px;
+    }
+  } 

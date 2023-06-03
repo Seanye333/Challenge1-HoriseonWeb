@@ -156,6 +156,7 @@ footer h1 {
     font-size: 20px;
 }
  /* adding media screen to make elements responsive control for all devices */
+ /* code is avaiable for all devices on browers */
  @media screen and (min-width: 768px) {
     header nav {
         padding-top: 15px;

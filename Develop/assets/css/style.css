@@ -69,8 +69,9 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-size: cover;
-    background-position: center;
+    object-fit: cover;
+    /* background-size: cover;
+    background-position: center; */
 }
 /* float plays the object left or right to the container */
 .float-left {
@@ -89,7 +90,7 @@ main {
     margin-left: 20px;
 }
 /* changed class selector to article */
-article {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -102,27 +103,27 @@ article {
 
 /* changed class selectors benefits-** to aside 
  reduced three line code to one line since margin,color,and alignment are the same set up */
-aside {
+article {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* changed class selectors benefits-** to aside h3
+/* changed class selectors benefits-** to article h3
  reduced three line code to one line since margin,color,and alignment are the same set up */
 
-aside h3 {
+article h3 {
     margin-bottom: 10px;
     text-align: center;  
 }
-/* changed class selectors benefits-** to aside img
+/* changed class selectors benefits-** to article img
  reduced three line code to one line since margin,color,and alignment are the same set up */
-aside img{
+article img{
     display: block;
     margin: 10px auto;
     max-width: 150px; 
 }
 
-/* changed class selectors to aside h3
+/* changed class selectors to article h3
 reduced three line code to one line since margin, padding , height , font-family 
 background color and color are the same set up */ 
 section {
@@ -133,12 +134,12 @@ section {
     background-color: #0072bb;
     color: #ffffff;
 }
-/* changed class selectors to aside h3
+/* changed class selectors to section h3
 reduced three line code to one line since max height are the same set up */ 
 section img {
     max-height: 200px;
 }
-/* changed class selectors to aside h3
+/* changed class selectors to section h3
 reduced three line code to one line since margin and font size are the same set up */ 
 section h2 {
     margin-bottom: 20px;

@@ -1,5 +1,6 @@
 # Horiseon Services Homepage
 ## Link to application 
+https://seanye333.github.io/Challenge1-HoriseonWeb/ 
 
 ## Description
 This repository contains the code for the Horiseon Social Solution Services, Inc homepage. It includes both the HTML and CSS files necessary to display the webpage correctly.
